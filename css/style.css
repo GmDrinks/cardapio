@@ -12,6 +12,7 @@ body{
     /* background-color: #3a2e26; */
     background-image: url(../img/bg-full.png);
     background-size: contain;
+    overflow-x: hidden;
 } 
 
 .c1{
@@ -110,7 +111,7 @@ body{
 
 .listit-c1{
     margin-left: 75px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 @media (max-width: 400px){
     .listit-c1{
