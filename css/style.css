@@ -10,7 +10,7 @@ font-family: 'Luxurious Script', cursive; */
 
 body{
     /* background-color: #3a2e26; */
-    background-image: url(/assets/img/bg-full.png);
+    background-image: url(img/bg-full.png);
     background-size: contain;
 } 
 
@@ -34,7 +34,7 @@ body{
 }
 #header{
     height: 200px;
-    background-image: url(/assets/img/bg-h.png);
+    background-image: url(img/bg-h.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -174,7 +174,7 @@ body{
 #content2{
     height: 400px;
     width: 90%;
-    background-image: url(/assets/img/bg-h2.png);
+    background-image: url(img/bg-h2.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
