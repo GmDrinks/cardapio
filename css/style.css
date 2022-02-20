@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=IM+Fell+English+SC&family=Luxurious+Script&family=MedievalSharp&family=Urbanist&family=Quintessential&family=Redressed&display=swap');
+
+/* font-family: 'Bellefair', serif;
+font-family: 'IM Fell English SC', serif;
+font-family: 'MedievalSharp', cursive;
+font-family: 'Quintessential', cursive;
+font-family: 'Redressed', cursive;
+font-family: 'Luxurious Script', cursive; */
+
+
+body{
+    /* background-color: #3a2e26; */
+    background-image: url(/assets/img/bg-full.png);
+    background-size: contain;
+} 
+
+.c1{
+    color: #1D5259;
+}
+.c2{
+    color: #D59E4D;
+}
+.c3{
+    color: #4A3229;
+}
+.c4{
+    color: #B79979;
+}
+.c5{
+    color: #EEEBE9;
+}
+.c6{
+    color: #768993;
+}
+#header{
+    height: 200px;
+    background-image: url(/assets/img/bg-h.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#header p{
+    font-family: 'Luxurious Script', cursive;
+    font-size: 52px;
+    padding-top: 65px;
+    opacity: 0.9;
+}
+.dots{
+    font-family: 'IM Fell English SC', serif;
+}
+
+#content1{
+    height: 1030px;
+    margin-top: -80px;
+    padding-top: 135px;
+    position: relative;
+}
+@media (max-width: 380px){
+    #content1{
+        height: 970px;
+        padding-top: 120px;
+    }   
+}
+@media (max-width: 350px){
+    #content1{
+        height: 900px;
+        padding-top: 120px;
+    }   
+}
+
+@media (max-width: 400px){
+    .maior400{
+        display: none;
+    }   
+}
+@media (min-width: 400px){
+    .menor400{
+        display: none;
+    }   
+} 
+
+.bg-1{
+    left:1%; top:125px;z-index: -1;width: 99%;
+}
+
+.title {
+    font-size: 45px;
+    font-family: 'IM Fell English SC', serif;
+    margin: 0;
+    line-height: 40px
+}
+
+#porcoes{
+    margin-bottom: 95px;
+}
+@media (max-width: 400px){
+    #porcoes{
+        margin-bottom: 80px;
+    }   
+}
+@media (max-width: 350px){
+    #porcoes{
+        margin-bottom: 65px;
+    }   
+}
+
+
+.listit-c1{
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+@media (max-width: 400px){
+    .listit-c1{
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }   
+}
+@media (max-width: 380px){
+    .listit-c1{
+        margin-bottom: 8px;
+    }   
+}
+@media (max-width: 350px){
+    .listit-c1{
+        margin-left: 46px;
+    }   
+}
+
+.grama-c1 p{
+    font-family: 'Bellefair', serif;
+    font-size: 15px;
+    margin: 0;
+    text-transform: lowercase;
+    text-shadow: 0 0 black; 
+    font-weight: 700;
+}
+.c1-price strong{
+    font-family: 'Redressed', cursive;
+    line-height: 10px;
+    font-size: 17px;
+}
+@media (max-width: 380px){
+    .grama-c1 p{
+        font-size: 14px;
+    }   
+    .c1-price strong{
+        font-size: 15px;
+    }
+}
+@media (max-width: 350px){
+    .grama-c1 p{
+        font-size: 13px;
+    }   
+    .c1-price strong{
+        font-size: 14px;
+    }
+}
+
+.price{
+    font-family: 'Redressed', cursive;
+        line-height: 10px;
+    font-size: 17px;
+}
+@media (max-width: 350px){
+    .price{
+        font-size: 15px;
+        line-height: 0px;
+    }   
+}
+
+#content2{
+    height: 400px;
+    width: 90%;
+    background-image: url(/assets/img/bg-h2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -150px auto 0 auto;
+    text-align: center;
+    padding-top: 115px;
+}
+@media (max-width: 400px){
+    #content2{
+        margin: -190px auto 0 auto;
+        padding-top: 125px;
+    }   
+}
+
+#content3{
+    height: 950px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    position: relative;
+}
+@media (max-width: 380px){
+    #content3{
+        height: 890px;
+    }   
+}
+@media (max-width: 350px){
+    #content3{
+        height: 830px;
+    }   
+}
+
+.bg-3{
+    left:-25px; top:60px;z-index: -1;
+}
+@media (max-width: 400px){
+    .bg-3{
+        width: 106%;
+    }   
+}
+@media (max-width: 350px){
+    .bg-3{
+        width: 110%;
+        left: -30px;
+    }   
+}
+
+#drinks{
+    margin-bottom: 120px;
+}
+@media (max-width: 380px){
+    #drinks{
+        margin-bottom: 105px;
+    }   
+}
+@media (max-width: 350px){
+    #drinks{
+        margin-bottom: 95px;
+    }   
+}
+
+.listit{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+@media (max-width: 400px){
+    .listit{
+        margin-bottom: 17px;
+        margin-left: 40px;
+    }   
+}
+@media (max-width: 350px){
+    .listit{
+        margin-bottom: 13px;
+        margin-left: 30px;
+    }   
+}
+
+.drink-i, .item{
+    font-family: 'IM Fell English SC', serif;
+    text-shadow: 0 0 black;
+    font-size: 20px;
+    margin: 0;
+}
+@media (max-width: 400px){
+    .drink-i, .item{
+        font-size: 18px;
+    }   
+}
+@media (max-width: 350px){
+    .drink-i, .item{
+        font-size: 15px;
+    }   
+}
+
+.c3-price{
+    font-family: 'Redressed', cursive;
+    line-height: 10px;
+    font-size: 18px;
+}
+@media (max-width: 380px){
+    .c3-price{
+        font-size: 16px;
+    }   
+}
+
+.line2{
+    width: 100%;
+    justify-content: start;
+}
+.line2 p{
+    font-family: 'Bellefair', serif;
+    text-shadow: 0 0 black;
+    font-size: 16px;
+    margin: 0;
+    margin-top: -5px;   
+    text-transform: lowercase;
+}
+@media (max-width: 350px){
+    .line2 p{
+        font-size: 14px;
+    }   
+}
+
+#content4{
+    height: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    position: relative;
+}
+@media (max-width: 380px){
+    #content4{
+        height: 730px;
+    }   
+}
+@media (max-width: 350px){
+    #content4{
+        height: 650px;
+    }   
+}
+
+
+.bg-4{
+    left:0px; top:65px;z-index: -1;width: 100%;
+}
+
+.suco-line{
+    transform: skewY(4deg);
+    margin-bottom: 130px;
+}
+@media (max-width: 400px){
+    .suco-line{
+        margin-bottom: 115px;
+    }   
+}
+@media (max-width: 350px){
+    .suco-line{
+        margin-bottom: 115px;
+    }   
+}
+
+
+#sucos{
+    margin-bottom: 110px;
+}
+@media (max-width: 400px){
+    #sucos{
+        margin-bottom: 95px;
+    }   
+}
+@media (max-width: 380px){
+    #sucos{
+        margin-bottom: 90px;
+    }   
+}
+@media (max-width: 350px){
+    #sucos{
+        margin-bottom: 69px;
+    }   
+}
+
+.suco-i{
+    font-family: 'IM Fell English SC', serif;
+    text-shadow: 0 0 black;
+    font-size: 22px;
+    margin: 0;
+}
+@media (max-width: 380px){
+    .suco-i{
+        font-size: 18px;
+    }   
+}
+@media (max-width: 350px){
+    .suco-i{
+        font-size: 16px;
+    }   
+}
+
+
+#content5{
+    height: 950px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    position: relative;
+}
+@media (max-width: 350px){
+    #content5{
+        height: 830px;
+    }   
+}
+
+#bebidas{
+    margin-bottom: 110px;
+}
+@media (max-width: 380px){
+    #bebidas{
+        margin-bottom: 100px;
+    }   
+}
+@media (max-width: 350px){
+    #bebidas{
+        margin-bottom: 95px;
+    }   
+}
+
+
+#col-c5{
+    margin-left: -46px;
+}
+@media (max-width: 350px){
+    #col-c5{
+        margin-left: -35px;
+    }   
+}
+
+.title-c5{
+    font-size: 28px;
+    font-family: 'IM Fell English SC', serif;
+    margin: 0;
+    line-height: 28px
+}
+@media (max-width: 380px){
+    .title-c5{
+        font-size: 25px;
+        line-height: 20px;
+    }   
+}
+
+
+.listit-c5{
+    margin-left: 60px;
+    margin-bottom: 3px;
+}
+@media (max-width: 380px){
+    .listit-c5{
+        margin-left: 50px;
+    }   
+}
+@media (max-width: 350px){
+    .listit-c5{
+        margin-left: 30px;
+        margin-bottom: 0px
+    }   
+}
+
+#dev{
+    height: 50px;
+    background-color: #3a2e26;
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
+#dev p{
+    font-size: 13px;
+    color: #aed;
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+#dev a{
+    color: #fad00c;
+}
