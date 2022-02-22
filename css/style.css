@@ -7,8 +7,12 @@ font-family: 'Quintessential', cursive;
 font-family: 'Redressed', cursive;
 font-family: 'Luxurious Script', cursive; */
 
+html{
+   background-image: url(../img/bg-full.png);
+    background-size: contain;
+}
 
-html, body{
+body{
    
     background-image: url(../img/bg-full.png);
     background-size: contain;
