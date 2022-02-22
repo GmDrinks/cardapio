@@ -293,6 +293,11 @@ body{
     margin-top: -5px;   
     text-transform: lowercase;
 }
+@media (max-width: 400px){
+    .line2 p{
+        font-size: 15px;
+    }   
+}
 @media (max-width: 350px){
     .line2 p{
         font-size: 14px;
