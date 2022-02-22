@@ -8,7 +8,7 @@ font-family: 'Redressed', cursive;
 font-family: 'Luxurious Script', cursive; */
 
 
-body{
+html{
    
     background-image: url("../img/bg-full.png");
     background-size: contain;
