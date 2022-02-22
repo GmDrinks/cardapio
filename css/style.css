@@ -8,9 +8,9 @@ font-family: 'Redressed', cursive;
 font-family: 'Luxurious Script', cursive; */
 
 
-html{
+html, body{
    
-    background-image: url("../img/bg-full.png");
+    background-image: url(../img/bg-full.png);
     background-size: contain;
     overflow-x: hidden;
 } 
