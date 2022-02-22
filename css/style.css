@@ -9,8 +9,8 @@ font-family: 'Luxurious Script', cursive; */
 
 
 body{
-    /* background-color: #3a2e26; */
-    background-image: url(../img/bg-full.png);
+   
+    background-image: url("../img/bg-full.png");
     background-size: contain;
     overflow-x: hidden;
 } 
