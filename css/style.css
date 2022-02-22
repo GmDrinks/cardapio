@@ -215,7 +215,7 @@ position: relative;
 }
 
 .bg-3{
-    left:-25px; top:60px;z-index: -1;
+    left:-25px; top:60px;z-index: 0;
 }
 @media (max-width: 400px){
     .bg-3{
@@ -330,7 +330,7 @@ position: relative;
 
 
 .bg-4{
-    left:0px; top:65px;z-index: -1;width: 100%;
+    left:0px; top:65px;z-index: 0;width: 100%;
 }
 
 .suco-line{
