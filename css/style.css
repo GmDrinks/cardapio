@@ -162,7 +162,7 @@ body{
 
 .price{
     font-family: 'Redressed', cursive;
-        line-height: 10px;
+        line-height: 5px;
     font-size: 17px;
 }
 @media (max-width: 350px){
@@ -242,11 +242,11 @@ body{
 }
 @media (max-width: 400px){
     .listit{
-        margin-bottom: 17px;
+        margin-bottom: 16px;
         margin-left: 40px;
     }   
 }
-@media (max-width: 350px){
+@media (max-width: 360px){
     .listit{
         margin-bottom: 13px;
         margin-left: 30px;
@@ -261,7 +261,7 @@ body{
 }
 @media (max-width: 400px){
     .drink-i, .item{
-        font-size: 18px;
+        font-size: 17px;
     }   
 }
 @media (max-width: 350px){
@@ -327,12 +327,12 @@ body{
 }
 @media (max-width: 400px){
     .suco-line{
-        margin-bottom: 115px;
+        margin-bottom: 120px;
     }   
 }
 @media (max-width: 350px){
     .suco-line{
-        margin-bottom: 115px;
+        margin-bottom: 120px;
     }   
 }
 
