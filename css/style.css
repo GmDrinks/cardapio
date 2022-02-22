@@ -8,11 +8,13 @@ font-family: 'Redressed', cursive;
 font-family: 'Luxurious Script', cursive; */
 
 body{
+   overflow-x: hidden;  
+}
+
+#page{
    
     background-image: url(../img/bg-full.png);
-    background-size: contain;
-    overflow-x: hidden;
-   height:auto;      
+    background-size: contain;   
 } 
 
 .c1{
