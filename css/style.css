@@ -9,13 +9,16 @@ font-family: 'Luxurious Script', cursive; */
 
 body{
    overflow-x: hidden;  
+    background-color: #3a2e26;
 }
 
-#page{
+.page{
     background-image: url(../img/bg-full.png);
     background-size: contain;
-   position: relative;
-   z-index: -1;
+    position: relative;
+    z-index: -1;
+   background-position: center;
+   margin-top: -16px;
 } 
 
 .c1{
