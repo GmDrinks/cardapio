@@ -14,7 +14,7 @@ body{
 #page{
     background-image: url(../img/bg-full.png);
     background-size: contain; 
-   margin-top: -16px;
+    position: relative;
 } 
 
 .c1{
