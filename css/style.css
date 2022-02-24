@@ -13,7 +13,7 @@ body{
 }
 
 .page{
-    background-image: url(../img/bg-full.png) !important;
+    background-image: url(../img/bg-new.jpg) !important;
     background-size: contain !important;
     position: relative;
     z-index: -1;
