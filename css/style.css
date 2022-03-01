@@ -23,11 +23,13 @@ body{
 .aviso{
    background-image: url(../img/bg-new.jpg) !important;
    text-align: center;
-   align-itens: center;
+   align-items: center;
    display: none;
    font-family: 'IM Fell English SC', serif;
    font-size: 50px;
    color: white;
+   padding: 20px 40px;
+   heigth: 100vh;
 }
 
 @media (min-width: 440px){
@@ -35,7 +37,7 @@ body{
         display: none;
     }
    .aviso{
-      display: block;
+      display: flex;
    }
 }
 
