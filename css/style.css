@@ -19,7 +19,23 @@ body{
     z-index: -1;
    background-position: center;
    margin-top: -16px;
-} 
+}
+
+@media (min-width: 440px){
+    .page{
+        display: none;
+    }
+   .aviso{
+      display: block;
+   }
+}
+
+.aviso{
+   background-image: url(../img/bg-new.jpg) !important;
+   text-align: center;
+   align-itens: center;
+   display: none;
+}
 
 .c1{
     color: #1D5259;
