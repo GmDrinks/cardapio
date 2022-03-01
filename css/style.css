@@ -20,16 +20,6 @@ body{
    background-position: center;
    margin-top: -16px;
 }
-
-@media (min-width: 440px){
-    .page{
-        display: none;
-    }
-   .aviso{
-      display: block;
-   }
-}
-
 .aviso{
    background-image: url(../img/bg-new.jpg) !important;
    text-align: center;
@@ -38,6 +28,15 @@ body{
    font-family: 'IM Fell English SC', serif;
    font-size: 50px;
    color: white;
+}
+
+@media (min-width: 440px){
+    .page{
+        display: none;
+    }
+   .aviso{
+      display: block;
+   }
 }
 
 .c1{
